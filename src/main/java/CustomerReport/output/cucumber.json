@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-28T07:03:38.216Z",
+        "line": 3,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8223700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter 10",
+            "match": {
+              "location": "giit.i_enter_10()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i enter 0",
+            "match": {
+              "location": "giit.i_enter_0()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i press add",
+            "match": {
+              "location": "giit.i_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i press equal symbol",
+            "match": {
+              "location": "giit.i_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will get 10",
+            "match": {
+              "location": "giit.i_will_get_10()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:git1/git1.feature",
+    "tags": []
+  }
+]
